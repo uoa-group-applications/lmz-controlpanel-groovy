@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>nz.ac.auckland.lmz</groupId>
 	<artifactId>groovy-controlpanel</artifactId>
-	<version>3.2</version>
+	<version>3.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>groovy-controlpanel</name>
 	<dependencies>
@@ -42,8 +42,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-  <scm>
-    <tag>groovy-controlpanel-3.2</tag>
-  </scm>
 </project>
