@@ -6,6 +6,7 @@
 		console.log(body);
 		$.ajax({type: 'POST',
 			dataType : "JSON",
+			contentType: 'application/json; charset=UTF-8',
 			url: UOA.endpoints.admin.groovyexec, //url,
 			data: JSON.stringify({scriptbody: body })
 		}).done(function(data) {
